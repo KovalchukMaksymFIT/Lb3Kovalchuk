@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форми</title>
+</head>
+<body>
+    <style>
+        fieldset{
+            width: 500px;
+        }
+    </style>
+    <!-- Демонстрація вмінь роботи з формами -->
+    <h1>Використання тегів для роботи з формами:</h1>
+    <form action="#">
+        <fieldset>
+        <legend> Ваша інформація </legend>
+            <p>Ваше ім'я: <input type="text" placeholder="Ваше ім'я"></p>
+            <p>Ваш вік: <input type="text" placeholder="Ваш вік"></p>
+        </fieldset>
+
+        <p>Пароль: <input type="password" placeholder="Введіть ваш пароль"></p>
+
+        <p>Чоловік <input type="radio"> Жінка <input type="radio"></p>
+
+        <p>Дата народження: <input type="date"></p>
+
+        <p>Запам'ятати мене: <input type="checkbox"></p>
+        
+        <p>Ваше місто: 
+            <select>
+                <option></option>
+                <option>Київ</option>
+                <option>Біла Церква</option>
+                <option>Житомир</option>
+                <option>Тернопіль</option>
+                <option>Дніпро</option>
+                <option>Луцьк</option>
+                <option>Львів</option>
+                <option>Суми</option>
+                <option>Харків</option>
+                <option>Херсон</option>
+                <option>Одеса</option>
+                <option>Сімферополь</option>
+            </select>
+        </p>
+
+        <p>
+            Ваше повідомлення:
+            <textarea name="comment">
+            </textarea>
+            </p>
+            <p>
+            <input type="button" value="Надіслати">
+            <input type="reset" value="Очистити">
+            </p>
+    </form>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таблиці</title>
+</head>
+<body>
+    <style>table,th,td{
+        border: 1px solid rgb(0, 0, 0);
+        text-align:center;
+      } 
+      
+      th,td{
+         padding:10px;
+      }
+
+      caption{
+        font-size:20px;
+        color:rgb(34, 0, 126);
+      }
+
+      thead{
+        background-color: aqua;
+      }
+
+      tbody{
+        background-color: bisque;
+      }
+
+      tfoot{
+        background-color: chocolate;
+      }
+      </style>
+    <!-- Демонстрація вмінь роботи з Таблицями -->   
+    <h1>Використання тегів для роботи з Таблицями:</h1>
+    <h2><code>table</code> - створення таблиці; <code>tr</code> - створення рядка; <code>th</code> - комірка-заголовок; <code>td</code> - комірка таблиці</h2>
+    <table>
+        <caption>Розклад занять</caption>
+        <thead>
+          <tr>
+            <th>Середа</th>
+            <th>21.02.24</th>
+          </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td>12:05-13:25</td>
+          <td>Webдиз Webпрогр</td>
+        </tr> 
+        <tr>
+          <td>13:50-15:10</td>
+          <td>Webдиз Webпрогр</td>
+        </tr>
+        <tr>
+          <td>15:25-16:45</td>
+          <td>ІнМов за ПроСпр</td>
+        </tr> 
+        <tr>
+          <td>17:00-18:20</td>
+          <td>ІнМов за ПроСпр</td>
+        </tr> 
+        </tbody>
+        <tfoot>
+            <tr >
+                <td colspan="2">...</td>
+              </tr> 
+        </tfoot>
+        </table>
+        
+</body>
+</html>
